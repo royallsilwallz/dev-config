@@ -1,0 +1,184 @@
+{
+  "editor.fontSize": 15,
+  "explorer.confirmDelete": false,
+  "editor.tabSize": 2,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.multiCursorModifier": "ctrlCmd",
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "extensions.ignoreRecommendations": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "editor.formatOnSave": true,
+  "vim.handleKeys": {
+    "<C-c>": false,
+    "<C-x>": false,
+    "<C-v>": false,
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    },
+    {
+      "before": ["<Capslock>"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["leader", "w"],
+      "commands": ["workbench.action.files.save"]
+    },
+    {
+      "before": ["<leader>", "t"],
+      "commands": ["workbench.action.togglePanel"]
+    },
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    {
+      "before": ["<leader>", "f"],
+      "commands": ["workbench.files.action.showActiveFileInExplorer"]
+    },
+    {
+      "before": ["<leader>", "<leader>", "f"],
+      "commands": ["workbench.action.toggleFullScreen"]
+    },
+    // {
+    //   "before": ["<leader>", "r", "f"],
+    //   "commands": ["fileutils.renameFile"]
+    // },
+    {
+      "before": ["d", "g"],
+      "commands": ["workbench.action.navigateBack"]
+    },
+    {
+      "before": ["<leader>", "c", "w"],
+      "commands": ["workbench.action.closeWindow"]
+    },
+    {
+      "before": ["leader", "l"],
+      "commands": [":vs"]
+    },
+    {
+      "before": ["leader", "j"],
+      "commands": [":sp"]
+    },
+    {
+      "before": ["leader", "q"],
+      "commands": [":q"]
+    },
+    {
+      "before": ["leader", "c", "o"],
+      "commands": [":tabo"]
+    },
+    {
+      "before": ["leader", "c", "a"],
+      "commands": [":qa"]
+    },
+    {
+      "before": ["leader", "r"],
+      "commands": [":reg"]
+    },
+    {
+      "before": ["leader", "leader", "l"],
+      "commands": ["workbench.action.moveEditorToNextGroup"]
+    },
+    {
+      "before": ["leader", "leader", "h"],
+      "commands": ["workbench.action.moveEditorToPreviousGroup"]
+    },
+    {
+      "before": ["leader", "p"],
+      "commands": ["workbench.action.quickOpen"]
+    }
+  ],
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.startupEditor": "welcomePage",
+  "vim.useCtrlKeys": true,
+  "vim.leader": "<space>",
+  "vim.useSystemClipboard": true,
+  "vim.surround": true,
+  "vim.foldfix": true,
+  "vim.replaceWithRegister": true,
+  "window.menuBarVisibility": "default",
+  "workbench.activityBar.visible": true,
+  "workbench.iconTheme": "quill-icons",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.arrowParens": "avoid",
+  "editor.lineNumbers": "relative",
+  "eslint.runtime": "",
+  "screencastMode.verticalOffset": 8,
+  "screencastMode.fontSize": 40,
+  "editor.minimap.maxColumn": 80,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontFamily": "'Fira Code', 'JetBrains Mono', Consolas, 'Courier New', monospace",
+  "vsicons.dontShowNewVersionMessage": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.minimap.enabled": false,
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
+  "workbench.colorTheme": "🌚 DarkCode++",
+  "workbench.colorCustomizations": {
+    "[Material Theme Darker High Contrast]": {
+      "activityBarBadge.background": "#FFA000",
+      "activityBar.activeBorder": "#FFA000",
+      "list.activeSelectionForeground": "#FFA000",
+      "list.inactiveSelectionForeground": "#FFA000",
+      "list.highlightForeground": "#FFA000",
+      "scrollbarSlider.activeBackground": "#FFA00050",
+      "editorSuggestWidget.highlightForeground": "#FFA000",
+      "textLink.foreground": "#FFA000",
+      "progressBar.background": "#FFA000",
+      "pickerGroup.foreground": "#FFA000",
+      "tab.activeBorder": "#FFA000",
+      "notificationLink.foreground": "#FFA000",
+      "editorWidget.resizeBorder": "#FFA000",
+      "editorWidget.border": "#FFA000",
+      "settings.modifiedItemIndicator": "#FFA000",
+      "settings.headerForeground": "#FFA000",
+      "panelTitle.activeBorder": "#FFA000",
+      "breadcrumb.activeSelectionForeground": "#FFA000",
+      "menu.selectionForeground": "#FFA000",
+      "menubar.selectionForeground": "#FFA000",
+      "editor.findMatchBorder": "#FFA000",
+      "selection.background": "#FFA00040",
+      "statusBarItem.remoteBackground": "#FFA000"
+    },
+    "editor.background": "#18272b"
+  },
+  "editor.fontWeight": 400,
+  "terminal.integrated.fontFamily": "'Fira Code', 'PowerlineSymbols' ",
+  "editor.letterSpacing": -0.3,
+  "editor.lineHeight": 21,
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true
+}
